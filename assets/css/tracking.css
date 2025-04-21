@@ -1,0 +1,77 @@
+.woo-tracking-form {
+    margin-bottom: 30px;
+  }
+  .woo-tracking-results {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .woo-tracking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  .woo-tracking-table th, 
+  .woo-tracking-table td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+  }
+  .woo-tracking-table th {
+    text-align: left;
+    width: 30%;
+  }
+  .woo-tracking-items {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .woo-tracking-items th, 
+  .woo-tracking-items td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+  }
+  .woo-tracking-items th {
+    text-align: left;
+  }
+  .progress-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    position: relative;
+  }
+  .progress-bar:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #ddd;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  .progress-step {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    width: 25%;
+  }
+  .step-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #f5f5f5;
+    border: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    font-weight: bold;
+  }
+  .progress-step.active .step-icon {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: white;
+  }
+  .step-label {
+    font-size: 12px;
+  }
